@@ -15,13 +15,15 @@ Sum = 19
 */
 #include <stdio.h>
 
-int main(){
-     int I;
-     int M;
-     printf("Input First Number");
-     scanf("%d",&I);
-     printf("Input Second Number");
-     scanf("%d",&M);
-     printf("sum of number %d and %d is%d",I,M,I+M);
-     return 0;
+int main() {
+    int I, M;
+
+    // Take both numbers in a single line
+    printf("Enter two numbers: ");
+    scanf("%d %d", &I, &M);
+
+    // Print sum in the required format
+    printf("Sum = %d\n", I + M);
+
+    return 0;
 }
