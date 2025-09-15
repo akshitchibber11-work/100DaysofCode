@@ -27,4 +27,5 @@ int main(){
     printf("%d:%d:%d\n", h, m, sec);
     
     return 0;
+
 }
